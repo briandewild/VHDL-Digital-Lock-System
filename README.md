@@ -1,2 +1,3 @@
 # VHDL-Digital-Lock-System
-A VHDL-based digital lock implemented with an FSM. The user enters a three-digit code using the Basys 3 push buttons (values 0–3). After three inputs, the system lights an LED to indicate success or failure. The correct sequence is 0–2–3; a different LED signals an incorrect code.
+The objective of this project was to build a digital lock using a Finite State Machine (FSM). The digital lock is designed to use a three-digit number combination that, when entered correctly, lights up one of the LEDs on the FPGA board. If the wrong combination is entered, a different LED lights up to indicate that the key is incorrect. The LEDs only light up after three inputs have been entered, preventing the user from easily guessing the code through process of elimination. The push buttons on the board were programmed to represent the numbers 0–3, and the correct code to unlock the lock is 0–2–3.
+
